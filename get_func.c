@@ -1,11 +1,11 @@
 #include "monty.h"
 
 /**
-  * get_op_func - Get the opcode's corresponding function
-  * @s: The opcode to get a function for
-  *
-  * Return: A pointer to the corresponding function
-  */
+* get_op_func - Get the opcode's corresponding function
+* @s: The opcode to get a function for
+*
+* Return: A pointer to the corresponding function
+*/
 void (*get_op_func(char *s))(stack_t **head, unsigned int line_number)
 {
 	int i = 0;
