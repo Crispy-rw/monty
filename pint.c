@@ -1,10 +1,10 @@
 #include "monty.h"
 
 /**
-  * pint - Prints the element at the top of the stack
-  * @stack: Stack to print the element from
-  * @line_number: The line number of the opcode currently being executed
-  */
+* pint - Prints the element at the top of the stack
+* @stack: Stack to print the element from
+* @line_number: The line number of the opcode currently being executed
+*/
 
 void pint(stack_t **stack, unsigned int line_number)
 {
