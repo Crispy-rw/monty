@@ -1,10 +1,10 @@
 #include "monty.h"
 
 /**
-  * div_ - Dvivides the second top element of the stack by the top element
-  * @stack: Address of stack whose top elements need to be divided
-  * @line_number: Line number of opcode currently being executed
-  */
+* div_ - Dvivides the second top element of the stack by the top element
+* @stack: Address of stack whose top elements need to be divided
+* @line_number: Line number of opcode currently being executed
+*/
 
 void div_(stack_t **stack, unsigned int line_number)
 {
